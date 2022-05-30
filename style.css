@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more_inf {
+.header .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.add-task__wrapper {
+.add-task-wrapper {
   display: flex;
 }
 
@@ -113,7 +113,7 @@ button {
 }
 
 /* Task list */
-.list__item {
+.list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -122,7 +122,7 @@ button {
   align-items: center;
 }
 
-.list__item > * {
+.list-item > * {
   vertical-align: middle;
 }
 
@@ -130,14 +130,14 @@ button {
   margin: 0 10px;
 }
 
-.list__item .lbl {
+.list-item .lbl {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list__item .txt {
+.list-item .txt {
   width: 226px;
 }
 
@@ -158,15 +158,15 @@ button {
 }
 
 /* Edit Task */
-.list__item .txt {
+.list-item .txt {
   display: none;
 }
 
-.editMode .txt {
+.edit-mode .txt {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .lbl {
+.edit-mode .lbl {
   display: none;
 }
