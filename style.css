@@ -152,7 +152,7 @@ button {
 }
 
 /* Completed */
-.completed__lbl {
+.completed .lbl {
   text-decoration: line-through;
   color: #888;
 }
