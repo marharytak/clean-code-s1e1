@@ -5,30 +5,30 @@
   font-family: Lato, sans-serif;
 }
 
-.main {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.main .img {
+.header .img {
   width: 100%;
 }
 
-.main .more_inf {
+.header .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .main {
+  .header {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -103,7 +103,7 @@ button {
 }
 
 /* New Task */
-#topSectionForAddingElementToList .title {
+#add-task .title {
   display: block;
   margin: 0 0 20px;
 }
@@ -152,7 +152,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .lbl {
+#completed .lbl {
   text-decoration: line-through;
   color: #888;
 }
